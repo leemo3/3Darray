@@ -2,8 +2,8 @@
 public class ThreeDim {
 
   public static void main(String[] args) {
-    //create a 3d Array
-    int[][][] threed = {
+    //create 3d Array
+    int[][][] test = {
         {
         {2, -3, 4},
         {1, 3, 5}      
@@ -15,7 +15,7 @@ public class ThreeDim {
         }
 
   };
-    int[][][] test = null;
+    
     for (int [][] array2D: test) {
       for (int [] array1D: array2D) {
         for(int item: array1D) {
